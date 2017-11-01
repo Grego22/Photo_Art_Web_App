@@ -20,6 +20,14 @@ gem 'uglifier', '>= 1.3.0'
 # See https://github.com/rails/execjs#readme for more supported runtimes
 # gem 'therubyracer', platforms: :ruby
 
+gem 'haml'
+#haml for HTML templating
+gem 'simple_form'
+#simple_form for forms
+gem 'devise'
+#for user authentication
+gem 'paperclip', git: "git://github.com/thoughtbot/paperclip.git"
+
 
 
 # Use ActiveModel has_secure_password

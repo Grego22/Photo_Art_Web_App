@@ -35,12 +35,12 @@ class PostsController < ApplicationController
 
   def upvote
     @post.upvote_by current_user
-    redirect_to :back
+    redirect_back fallback_location: root_path
   end
 
   def downvote
     @post.downvote_by current_user
-    redirect_to :back
+    redirect_back fallback_location: root_path
   end
 
   private

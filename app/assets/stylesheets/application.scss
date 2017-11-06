@@ -14,9 +14,6 @@ h1, h2, h3, h4, h5, h6 {
 .wrapper {
 	width: 80%;
 	margin: 0 auto;
-	display: flex;
-	justify-content: space-around;
-	flex-flow: wrap;
 }
 
 .clearfix:before, .clearfix:after {

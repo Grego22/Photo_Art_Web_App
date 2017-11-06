@@ -38,10 +38,10 @@
             %p.buttons
               %span
                 %i.fa.fa-comments-o
-                = post.comments.count
+                = @random_post.comments.count
               %span
                 %i.fa.fa-thumbs-o-up
-                =post.get_likes.size
+                = @random_post.get_likes.size
 
 
 #comments

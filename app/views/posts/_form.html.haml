@@ -1,11 +1,12 @@
 .row
 = simple_form_for @post do |f|
   %fieldset.span
-    =f.input :image
-    =f.input :title
-    =f.input :link
-    %br
-    =f.input :description
-  .span
+    .panel-body
+      =f.input :image
+      =f.input :title
+      =f.input :link
+      =f.input :description
+      .span
 
   =f.button :submit
+.wrapper

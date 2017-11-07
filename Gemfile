@@ -20,7 +20,8 @@ gem 'uglifier', git: "https://github.com/lautis/uglifier.git"
 # See https://github.com/rails/execjs#readme for more supported runtimes
 # gem 'therubyracer', platforms: :ruby
 
-
+gem 'aws-sdk', '~> 3'
+#aws s3 gem for cloud image storage
 gem 'haml'
 #haml for HTML templating
 gem 'simple_form'

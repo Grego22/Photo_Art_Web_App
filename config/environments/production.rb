@@ -3,15 +3,14 @@ Rails.application.configure do
 
 
   config.paperclip_defaults = {
-  storage: :s3,
-  s3_credentials: {
-    bucket: ENV.fetch('photo-muse-app'),
-    access_key_id: ENV.fetch('AKIAIFQHO6BSEXE673EA'),
-    secret_access_key: ENV.fetch('
-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'),
-    s3_region: ENV.fetch('us-east-2'),
+    storage: :s3,
+    s3_credentials: {
+      bucket: ENV.fetch('S3_BUCKET_NAME'),
+      access_key_id: ENV.fetch('AWS_ACCESS_KEY_ID'),
+      secret_access_key: ENV.fetch('AWS_SECRET_ACCESS_KEY'),
+      s3_region: ENV.fetch('AWS_REGION'),
+    }
   }
-}
   # Settings specified here will take precedence over those in config/application.rb.
 
   # Code is not reloaded between requests.

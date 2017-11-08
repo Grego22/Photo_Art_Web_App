@@ -9,7 +9,7 @@ Rails.application.configure do
     access_key_id: ENV.fetch('AKIAIBGHSGHII264LOTQ'),
     secret_access_key: ENV.fetch('
 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'),
-    s3_region: ENV.fetch('AWS_REGION'),
+    s3_region: ENV.fetch('us-east-2'),
   }
 }
   # Settings specified here will take precedence over those in config/application.rb.

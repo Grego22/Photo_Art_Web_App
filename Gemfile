@@ -21,7 +21,7 @@ gem 'uglifier', git: "https://github.com/lautis/uglifier.git"
 # gem 'therubyracer', platforms: :ruby
 
 gem 'aws-sdk', '~> 3'
-#aws s3 gem for cloud image storage
+#aws s3 gem for cloud image stora
 gem 'haml'
 #haml for HTML templating
 gem 'simple_form'

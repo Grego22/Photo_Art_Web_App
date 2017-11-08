@@ -1,7 +1,7 @@
 #post_show
   %h1= @post.title
   %p.username
-    Share by
+    Shared by
     =@post.user.name
     about
     = time_ago_in_words(@post.created_at)

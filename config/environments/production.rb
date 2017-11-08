@@ -6,7 +6,7 @@ Rails.application.configure do
   storage: :s3,
   s3_credentials: {
     bucket: ENV.fetch('photo-muse-app'),
-    access_key_id: ENV.fetch('AKIAIBGHSGHII264LOTQ'),
+    access_key_id: ENV.fetch('AKIAIFQHO6BSEXE673EA'),
     secret_access_key: ENV.fetch('
 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'),
     s3_region: ENV.fetch('us-east-2'),
